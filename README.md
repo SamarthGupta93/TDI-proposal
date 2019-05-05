@@ -24,7 +24,7 @@ Key Observations:
 2)	Most jobs are posted in the first half of the year. This insinuates an optimal time of the year for job seekers.
 3)	The number of engineering job in 2018 has greatly increased as compared to 2017. This reflects the growth in the domain.
 
-![alt text](/engineering_job_per_month.png)
+![alt text](https://github.com/SamarthGupta93/TDI-proposal/blob/master/engineering_jobs_per_month.PNG)
 
 **Analysis 2**: In this analysis, we explore the regional aspect of the Engineering jobs. We first group our dataset by “year”. Next, we group each year data by “country”. It is seen that USA has the leading number of online job postings followed by India and China. This is trivial as our dataset contains the firms listed in NYSE and NASDAQ which are both American stock exchange. Hence, we continue our analysis and work on a filtered dataset containing the “USA” job postings.  The filtered dataset contains 814,264 entries.
 We group our dataset by “year” followed by “region” (States in USA). 
@@ -33,7 +33,7 @@ Key observation:
 2)	In 2018, Washington (53.5%) surpassed California (17.9%) creating about triple the number of job postings. A deeper analysis into the dataset shows that a majority of the new job postings in WA were created by Microsoft. This hints a probable expansion of the Microsoft Washington campus, an insight which could be crucial for engineers aiming to work in the firm.
 3)	California has about similar and high number of job postings in both 2017 and 2018, indicating a stable and major region for job seekers.
 
-![alt text](/engineering_job_by_state.png)
+![alt text](https://github.com/SamarthGupta93/TDI-proposal/blob/master/engineering_jobs_by_state.PNG)
 
 ### Conclusion
 The preliminary analyses show that there are non-trivial trends in the job postings. It can detect major regions for a job category, the growth of the domain, optimal time of the year for job applications and many other key information. It can also reflect if a firm has increased its intake over the past few months or expanded to a new state. The analyses could be further detailed by including/comparing multiple domains and other statistical/predictive analyses. All this information can be vital for job seekers and needs to be evaluated in order to make an informed choice.
