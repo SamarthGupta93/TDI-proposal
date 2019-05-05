@@ -24,7 +24,7 @@ Key Observations:
 2)	Most jobs are posted in the first half of the year. This insinuates an optimal time of the year for job seekers.
 3)	The number of engineering job in 2018 has greatly increased as compared to 2017. This reflects the growth in the domain.
 
-![alt text](https://github.com/SamarthGupta93/TDI-proposal/blob/master/engineering_jobs_per_month.PNG)
+![alt text](https://github.com/SamarthGupta93/TDI-proposal/blob/master/engineering_jobs_per_month.png)
 
 **Analysis 2**: In this analysis, we explore the regional aspect of the Engineering jobs. We first group our dataset by “year”. Next, we group each year data by “country”. It is seen that USA has the leading number of online job postings followed by India and China. This is trivial as our dataset contains the firms listed in NYSE and NASDAQ which are both American stock exchange. Hence, we continue our analysis and work on a filtered dataset containing the “USA” job postings.  The filtered dataset contains 814,264 entries.
 We group our dataset by “year” followed by “region” (States in USA). 
