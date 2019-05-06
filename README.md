@@ -15,12 +15,12 @@ In this project, I propose to create a web application which could provide insig
 I have used Thinknum’s job_listing dataset provided to me by The Data Incubator for the preliminary analysis. The dataset contains numerous job postings, each classified into different categories – Engineering, Sales, Financial Services etc. labeled by the “category” column. To explore the feasibility of the project, we work on one of the categories for the preliminary analysis labeled as “Engineering”.
 
 ### Preliminary analysis
-For our preliminary analysis, we work on the “Engineering” job category of our dataset. The whole dataset is divided into seven parts. We extract the “Engineering” category from all the seven parts to create our filtered dataset of over 1.3 M entries.
+For our preliminary analysis, we work on the “Engineering” job category of our dataset. The whole dataset is divided into seven parts. We extract the “Engineering” category from all the seven parts to create our filtered dataset of over 1.86 M entries.
 The “Engineering” dataset contains job postings from Jan-2017 to Jul-2018 (as evaluated from “as_of_date” column). 
 
 **Analysis 1**: We group the postings by each month and plot the total postings for every month starting from Jan-2017 to Jul-2018. 
 Key Observations:
-1)	We observe two major peaks in the graph – Jun-2017 and Mar-2018. 
+1)	We observe two major peaks in the graph – Jun-2017 and May-2018. 
 2)	Most jobs are posted in the first half of the year. This insinuates an optimal time of the year for job seekers.
 3)	The number of engineering job in 2018 has greatly increased as compared to 2017. This reflects the growth in the domain.
 
@@ -29,8 +29,8 @@ Key Observations:
 **Analysis 2**: In this analysis, we explore the regional aspect of the Engineering jobs. We first group our dataset by “year”. Next, we group each year data by “country”. It is seen that USA has the leading number of online job postings followed by India and China. This is trivial as our dataset contains the firms listed in NYSE and NASDAQ which are both American stock exchange. Hence, we continue our analysis and work on a filtered dataset containing the “USA” job postings.  The filtered dataset contains 814,264 entries.
 We group our dataset by “year” followed by “region” (States in USA). 
 Key observation:
-1)	In 2017, California had the maximum engineering job postings (32.7% of the total) followed by Iowa (8.5%) and Viriginia (7.4%). 
-2)	In 2018, Washington (53.5%) surpassed California (17.9%) creating about triple the number of job postings. A deeper analysis into the dataset shows that a majority of the new job postings in WA were created by Microsoft. This hints a probable expansion of the Microsoft Washington campus, an insight which could be crucial for engineers aiming to work in the firm.
+1)	In 2017, California had the maximum engineering job postings followed by Virginia, Iowa and Washington. 
+2)	In 2018, Washington surpassed California creating more than double the number of engineering job postings. A deeper analysis into the dataset shows that a majority of the new job postings in WA were created by Microsoft. This hints a probable expansion of the Microsoft Washington campus, an insight which could be crucial for engineers aiming to work in the firm.
 3)	California has about similar and high number of job postings in both 2017 and 2018, indicating a stable and major region for job seekers.
 
 ![alt text](https://github.com/SamarthGupta93/TDI-proposal/blob/master/engineering_jobs_by_state.PNG)
